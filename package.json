@@ -1,0 +1,24 @@
+{
+  "name": "smallbench",
+  "version": "0.0.0",
+  "description": "SmallBench is an easy-to-use web server performance testing tool.",
+  "main": "lib/bench.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaidikkp/smallbench"
+  },
+  "keywords": [
+    "benchmarking",
+    "server",
+    "performance",
+    "http"
+  ],
+  "author": "Vaidik Kapoor <http://vaidikkapoor.info>",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
