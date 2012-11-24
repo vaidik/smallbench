@@ -2,7 +2,8 @@
   "name": "smallbench",
   "version": "0.0.0",
   "description": "SmallBench is an easy-to-use web server performance testing tool.",
-  "main": "lib/bench.js",
+  "main": "lib/smallbench.js",
+  "bin": "lib/smallbench-cli.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
