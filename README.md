@@ -7,7 +7,7 @@ performance testing.
 
 ```js
 
-var b = require('bench');
+var b = require('smallbench');
 
 // same as options for http or https module's request method
 // refer to http://nodejs.org/api/http.html#http_http_request_options_callback
