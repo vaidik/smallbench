@@ -2,16 +2,22 @@
   "name": "smallbench",
   "version": "0.0.0",
   "description": "SmallBench is an easy-to-use web server performance testing tool.",
-  "main": "lib/smallbench.js",
-  "bin": "lib/smallbench-cli.js",
-  "dependencies": {},
+  "main": "./lib/smallbench.js",
+  "bin": "./lib/smallbench-cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-static": "~0.6.4"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vaidikkp/smallbench"
+    "url": "git://github.com/vaidikkp/smallbench.git"
   },
   "keywords": [
     "benchmarking",
