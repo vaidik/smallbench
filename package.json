@@ -5,7 +5,6 @@
   "main": "./lib/smallbench.js",
   "bin": "./lib/smallbench-cli.js",
   "directories": {
-    "test": "test"
   },
   "dependencies": {
     "node-static": "~0.6.4"
